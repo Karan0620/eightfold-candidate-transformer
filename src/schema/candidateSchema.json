@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "candidate_id": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "emails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phones": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "experience": {
+      "type": "array"
+    },
+    "education": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "array"
+    },
+    "overall_confidence": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "full_name",
+    "emails"
+  ]
+}

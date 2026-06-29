@@ -1,0 +1,13 @@
+{
+    "fields": [
+        "candidate_id",
+        "full_name",
+        "emails",
+        "phones",
+        "skills",
+        "experience",
+        "education",
+        "overall_confidence",
+        "provenance"
+    ]
+}
