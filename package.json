@@ -4,8 +4,8 @@
   "description": "Multi Source Candidate Data Transformer",
   "main": "src/index.js",
   "scripts": {
-  "start": "node src/index.js",
-  "dev": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "libphonenumber-js": "^1.13.7",
-    "pdf-parse": "^2.4.5",
+    "pdf-parse": "^1.1.1",
     "uuid": "^14.0.1"
   },
   "devDependencies": {
