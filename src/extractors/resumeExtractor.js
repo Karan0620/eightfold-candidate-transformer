@@ -27,7 +27,6 @@ function extractPersonalInfo(text, candidate) {
     if (phoneMatch) {
         candidate.phones.push(phoneMatch[0]);
     }
-
 }
 
 function extractSkills(text, candidate) {
@@ -40,7 +39,6 @@ function extractSkills(text, candidate) {
     }
 
     const skillSection = text.substring(start, end);
-
     const lines = skillSection.split("\n");
 
     lines.forEach(line => {
@@ -57,11 +55,8 @@ function extractSkills(text, candidate) {
                     .filter(Boolean);
 
                 candidate.skills.push(...skills);
-
             }
-
         }
-
     });
 }
 
@@ -81,7 +76,6 @@ function extractExperience(text, candidate) {
         .map(line => line.trim())
         .filter(Boolean);
 
-    // Remove heading
     lines.shift();
 
     if (lines.length >= 2) {
@@ -98,15 +92,10 @@ function extractExperience(text, candidate) {
             .map(item => item.trim());
 
         candidate.experience.push({
-
             title: title || null,
-
             company: company || null,
-
             duration: duration || null,
-
             location: location || null
-
         });
     }
 }
@@ -129,15 +118,7 @@ function extractEducation(text, candidate) {
 
     lines.shift();
 
-    lines.forEach(line => {
-
-        candidate.education.push(line);
-
-    });
-}
-
-function extractProjects(text, candidate) {
-
+    candidate.education.push(...lines);
 }
 
 function extractResume(text) {
@@ -145,17 +126,11 @@ function extractResume(text) {
     const candidate = createCandidate();
 
     extractPersonalInfo(text, candidate);
-
     extractSkills(text, candidate);
-
     extractExperience(text, candidate);
-
     extractEducation(text, candidate);
 
-    extractProjects(text, candidate);
-    console.log(candidate);
     return candidate;
-
 }
 
 module.exports = extractResume;

@@ -2,7 +2,6 @@ const fs = require("fs");
 const csv = require("csv-parser");
 
 const createCandidate = require("../models/candidateModel");
-const fieldMapping = require("../constants/csvFieldMapping");
 const transformCsvRow = require("../utils/transformCsvRow");
 
 function parseCSV(filePath) {

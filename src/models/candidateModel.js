@@ -35,7 +35,14 @@ function createCandidate() {
             portfolio: null
         },
 
-        provenance: [],
+        provenance: {
+            full_name: [],
+            emails: [],
+            phones: [],
+            skills: [],
+            experience: [],
+            education: []
+        },
 
         overall_confidence: 0
     };
