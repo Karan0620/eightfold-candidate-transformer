@@ -1,0 +1,80 @@
+{
+  "candidate_id": "6ae6b0f1-f623-487e-9cb8-95a99498995e",
+  "full_name": "KARAN ASWANI",
+  "emails": [
+    "karanaswani0620@gmail.com",
+    "karan.aswani@gmail.com"
+  ],
+  "phones": [
+    "+919039630009",
+    "+919876543210"
+  ],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "SQL",
+    "Spring Boot",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "React.js",
+    "MySQL",
+    "MongoDB",
+    "OOP",
+    "Collections Framework",
+    "Exception Handling",
+    "Multithreading",
+    "JDBC",
+    "Data Structures & Algorithms",
+    "DBMS",
+    "Operating Systems",
+    "SDLC",
+    "Agile Methodologies",
+    "Git",
+    "GitHub",
+    "Playwright",
+    "Rest Assured",
+    "Datadog"
+  ],
+  "experience": [
+    {
+      "title": "Software Development Intern",
+      "company": "Vena Solutions Software India Pvt. Ltd.",
+      "duration": "February 2026 – June 2026",
+      "location": "Full-Time Onsite, Indore, Madhya Pradesh"
+    }
+  ],
+  "education": [
+    "B.TECH. — Computer Science & Engineering | Medicaps University | CGPA: 8.79 / 10.0 | 2022 – 2026",
+    "Senior Secondary (Class XII) | CBSE Board | Percentage: 90% | 2022",
+    "Secondary (Class X) | CBSE Board | Percentage: 90% | 2020"
+  ],
+  "overall_confidence": 1,
+  "provenance": {
+    "full_name": [
+      "resume",
+      "csv"
+    ],
+    "emails": [
+      "resume",
+      "csv"
+    ],
+    "phones": [
+      "resume",
+      "csv"
+    ],
+    "skills": [
+      "resume",
+      "csv"
+    ],
+    "experience": [
+      "resume"
+    ],
+    "education": [
+      "resume"
+    ],
+    "headline": [],
+    "location": [],
+    "links": []
+  }
+}
